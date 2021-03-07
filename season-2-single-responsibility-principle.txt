@@ -130,3 +130,8 @@
 
 21. Google Search Test - Part 1
     At this class we created our first google workflow test.
+                                                    
+==========================================================================================
+
+22. Google Search Test - Part 2
+    At this class we implemented more steps to the Google Workflow Test.
