@@ -168,3 +168,8 @@
 
 28. Project Structure
     Just an explanation of the project' structure.
+                                                                                 
+==========================================================================================
+
+29. Clarificarion For BDD
+    He explained that this method is tottaly applicable with BDD. The BDD process will be introduced early from Page Objects (following the schema that he used as example)
