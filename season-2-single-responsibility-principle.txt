@@ -85,3 +85,8 @@
 
 12. Search Widget Component Implementation
     At this class we created the search box component, and introduced the return if this component is displayed.
+                
+==========================================================================================
+
+13. Search Suggestion Component Implementation
+    At this class we created the suggestions component
