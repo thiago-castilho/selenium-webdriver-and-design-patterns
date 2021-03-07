@@ -173,3 +173,10 @@
 
 29. Clarificarion For BDD
     He explained that this method is tottaly applicable with BDD. The BDD process will be introduced early from Page Objects (following the schema that he used as example)
+                                                                                     
+==========================================================================================
+
+30. Single Responsibility Principle - Summary
+    - SRP: A class should have only one responsibility. (Class/Method/Package)
+    - Create smaller/ Maintainable classes
+    - SRP is an interface. All the design patterns are implementation of this SRP.
