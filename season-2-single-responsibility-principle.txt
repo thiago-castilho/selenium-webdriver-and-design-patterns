@@ -50,3 +50,14 @@
         - High cohesion: all the members of a class are very closely related. They are related to single responsibility.
             The problems of salary promotion in the second example ilustrates that. First, when we had just one role, the cohesion was High. Then, when we add a lot of roles with if-else block, we had low cohesion.
         - Low cohesion: members are not related.
+
+==========================================================================================
+
+7. Sample Workflow For Automation
+    1st: Launch Google Site
+    2nd: Enter the given keyword on the main page
+    3rd: Click on the Nth suggestion
+    4th: Enter the given keyword on the Google Results page
+    5th: Click on the Nth suggestion once again
+    6th: Go to News/Videos/Images
+    7th: Print the search result stat
