@@ -145,3 +145,8 @@
 
 24. Google Search Test Run
     Just an execution of the test
+                                                                
+==========================================================================================
+
+25. Google Search Text Parameterize
+     At this class, we parameterized the texts with @DataProvider, and then we put this values on @Test(dataProvider = "dataProviderMethodName").
