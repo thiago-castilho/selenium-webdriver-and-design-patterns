@@ -61,3 +61,12 @@
     5th: Click on the Nth suggestion once again
     6th: Go to News/Videos/Images
     7th: Print the search result stat
+    
+==========================================================================================
+
+8. Page Components Design
+    In some cases, there are too many components in a page...
+    When some pages has components in common, we usually create a base page... 
+    In that case, we will create components!
+
+    Inheritance is not the right way to active the usability, COMPOSITION is the right way.
