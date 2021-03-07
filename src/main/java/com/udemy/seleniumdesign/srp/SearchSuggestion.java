@@ -27,6 +27,6 @@ public class SearchSuggestion extends AbstractComponent {
 
     @Override
     public boolean isDisplayed() {
-        return false;
+        return this.wait.until((driver) -> this.suggestions.size() > 5);
     }
 }
