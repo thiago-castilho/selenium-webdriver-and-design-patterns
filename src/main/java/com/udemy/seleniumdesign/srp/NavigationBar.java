@@ -9,18 +9,18 @@ public class NavigationBar extends AbstractComponent {
     @FindBy(id = "hdtb")
     private WebElement bar;
 
-    @FindBy(linkText = "Images")
-    private WebElement images;
+    @FindBy(linkText = "Vídeos")
+    private WebElement videos;
 
-    @FindBy(linkText = "News")
+    @FindBy(linkText = "Notícias")
     private WebElement news;
 
     public NavigationBar(WebDriver driver) {
         super(driver);
     }
 
-    public void goToImages() {
-        this.images.click();
+    public void goToVideos() {
+        this.videos.click();
     }
 
     public void goToNews() {

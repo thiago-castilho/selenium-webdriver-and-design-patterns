@@ -135,3 +135,8 @@
 
 22. Google Search Test - Part 2
     At this class we implemented more steps to the Google Workflow Test.
+                                                        
+==========================================================================================
+
+23. Few Corrections
+    At this class, we few some corrections like image path, that not contains result status and the human behavior at the sendKeys.
