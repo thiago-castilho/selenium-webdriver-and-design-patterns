@@ -22,6 +22,7 @@
         - Less maintenance
         - Easy to introduce new change
         - Comes with experience/knowledge
+
 ==========================================================================================
 
 5. Single Responsibility Principle - Introduction
@@ -33,3 +34,19 @@
         - A class should have onle one responsibility/ one reason to chance.
         - SRP isn't only for classes. It can be used on Micro/Macro services too.
         - Another example of SRP: Docker is used to packege one single application process along with dependencies
+
+==========================================================================================
+
+6. Coupling & Cohesion
+    - Highly cohesive
+    - Loosely coupled
+
+    Coupling is the measure of the degree of the dependencies among classes/modules
+        - Highly coupled: too many dependencies (A class/module can not work without another class/module)
+            The problem of Login Page is a good sample (First video of this course, the web driver works just with chrome driver)
+        - Loosely coupled - less dependencies
+
+    Cohesion is the measure of the degree of the relationship of the members within a class/module
+        - High cohesion: all the members of a class are very closely related. They are related to single responsibility.
+            The problems of salary promotion in the second example ilustrates that. First, when we had just one role, the cohesion was High. Then, when we add a lot of roles with if-else block, we had low cohesion.
+        - Low cohesion: members are not related.
