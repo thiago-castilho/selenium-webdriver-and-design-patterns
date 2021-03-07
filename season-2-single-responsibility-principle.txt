@@ -6,4 +6,177 @@
             - If a method modifies a property, other methods using the property might produce different output
 
     Sometimes the problmes can be simple, and some if blocks should be enough. But, when we receive new rules for the app, it mighr be a problem if we hadn't a pattern. 
-  
+
+==========================================================================================
+
+4. GOOD CODE VS BAD CODE
+    - Good and Bad code might produce same output
+    - Bad Code:
+        - Quick to develop
+        - Less initial effort
+        - More maintenance effort
+        - Difficult to introduce a change & require thorough testing for all the functionalities of the class
+        - Mostly patch work with if-else blocks
+    - Good Code:
+        - More initial effort
+        - Less maintenance
+        - Easy to introduce new change
+        - Comes with experience/knowledge
+
+==========================================================================================
+
+5. Single Responsibility Principle - Introduction
+    - When a class if modified, all the responsibilities need to be tested.
+    - Testing effort is the total number of responsibilities of all the classes being modified.
+    - To minimize effort, minimize the responsibilities.
+
+    Single Responsibility Principle (SRP)
+        - A class should have onle one responsibility/ one reason to chance.
+        - SRP isn't only for classes. It can be used on Micro/Macro services too.
+        - Another example of SRP: Docker is used to packege one single application process along with dependencies
+
+==========================================================================================
+
+6. Coupling & Cohesion
+    - Highly cohesive
+    - Loosely coupled
+
+    Coupling is the measure of the degree of the dependencies among classes/modules
+        - Highly coupled: too many dependencies (A class/module can not work without another class/module)
+            The problem of Login Page is a good sample (First video of this course, the web driver works just with chrome driver)
+        - Loosely coupled - less dependencies
+
+    Cohesion is the measure of the degree of the relationship of the members within a class/module
+        - High cohesion: all the members of a class are very closely related. They are related to single responsibility.
+            The problems of salary promotion in the second example ilustrates that. First, when we had just one role, the cohesion was High. Then, when we add a lot of roles with if-else block, we had low cohesion.
+        - Low cohesion: members are not related.
+
+==========================================================================================
+
+7. Sample Workflow For Automation
+    1st: Launch Google Site
+    2nd: Enter the given keyword on the main page
+    3rd: Click on the Nth suggestion
+    4th: Enter the given keyword on the Google Results page
+    5th: Click on the Nth suggestion once again
+    6th: Go to News/Videos/Images
+    7th: Print the search result stat
+    
+==========================================================================================
+
+8. Page Components Design
+    In some cases, there are too many components in a page...
+    When some pages has components in common, we usually create a base page... 
+    In that case, we will create components!
+
+    Inheritance is not the right way to active the usability, COMPOSITION is the right way.
+        
+==========================================================================================
+
+9. Source Code
+10. IDE - Setup
+
+==========================================================================================
+
+11. Abstract Component
+    We have to create an abstract class with the abstract method: isDisplayed() to ensure thatthe components are visible at the page.
+            
+==========================================================================================
+
+12. Search Widget Component Implementation
+    At this class we created the search box component, and introduced the return if this component is displayed.
+                
+==========================================================================================
+
+13. Search Suggestion Component Implementation
+    At this class we created the suggestions components
+                    
+==========================================================================================
+
+14. Explicit Wait Using Lambda
+    At this class we used lambda expression to wait the suggestions.
+                        
+==========================================================================================
+
+15. Refactoring
+    At this class, we selected the common functionalities that components use and exported to abstract class.
+                            
+==========================================================================================
+
+16. Navigation Bar Component Implementation
+    At this class we created the navigation bar components
+                                
+==========================================================================================
+
+17. Result Stat Component Implementation
+    At this class we created the result status component, and get it text.
+                                    
+==========================================================================================
+
+18. Google Main Page Implementation
+    At this class we created th Google Main Page (Page Objects) wich is responsible to manage the components.
+                                        
+==========================================================================================
+
+19. Google Result Page Implementation
+    At this class we created another page objects named GoogleResultPage, wich is responsible for components from it page.
+                                            
+==========================================================================================
+
+20. Base Test
+    At this class we created a Base Test class wich manage the tests.
+                                                
+==========================================================================================
+
+21. Google Search Test - Part 1
+    At this class we created our first google workflow test.
+                                                    
+==========================================================================================
+
+22. Google Search Test - Part 2
+    At this class we implemented more steps to the Google Workflow Test.
+                                                        
+==========================================================================================
+
+23. Few Corrections
+    At this class, we few some corrections like image path, that not contains result status and the human behavior at the sendKeys.
+                                                            
+==========================================================================================
+
+24. Google Search Test Run
+    Just an execution of the test
+                                                                
+==========================================================================================
+
+25. Google Search Text Parameterize
+     At this class, we parameterized the texts with @DataProvider, and then we put this values on @Test(dataProvider = "dataProviderMethodName").
+                                                                     
+==========================================================================================
+
+26. Package Refactoring
+    At this class we organized the packages. 
+    common: every common components for all the pages.
+    main: the page object of main page.
+    result: the page object of result status and it's components.
+                                                                         
+==========================================================================================
+
+27. Cohesion
+    At this class he explain the cohesion with practical examples of the project.
+                                                                             
+==========================================================================================
+
+28. Project Structure
+    Just an explanation of the project' structure.
+                                                                                 
+==========================================================================================
+
+29. Clarificarion For BDD
+    He explained that this method is tottaly applicable with BDD. The BDD process will be introduced early from Page Objects (following the schema that he used as example)
+                                                                                     
+==========================================================================================
+
+30. Single Responsibility Principle - Summary
+    - SRP: A class should have only one responsibility. (Class/Method/Package)
+    - Create smaller/ Maintainable classes
+    - SRP is an interface. All the design patterns are implementation of this SRP.
