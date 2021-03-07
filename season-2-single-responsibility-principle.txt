@@ -110,3 +110,8 @@
 
 17. Result Stat Component Implementation
     At this class we created the result status component, and get it text.
+                                    
+==========================================================================================
+
+18. Google Main Page Implementation
+    At this class we created th Google Main Page (Page Objects) wich is responsible to manage the components.
