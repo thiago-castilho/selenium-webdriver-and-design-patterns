@@ -95,3 +95,8 @@
 
 14. Explicit Wait Using Lambda
     At this class we used lambda expression to wait the suggestions.
+                        
+==========================================================================================
+
+15. Refactoring
+    At this class, we selected the common functionalities that components use and exported to abstract class.
