@@ -1,0 +1,9 @@
+31. Design Pattern - Introduction 
+    - Repeatable solutions to commonly occuring problems in Software Design
+    - Template/ High level solution
+
+    Challenges:
+        - Have to recognize the problem/pattern
+
+        
+==========================================================================================
