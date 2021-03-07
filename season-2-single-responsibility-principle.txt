@@ -70,3 +70,9 @@
     In that case, we will create components!
 
     Inheritance is not the right way to active the usability, COMPOSITION is the right way.
+        
+==========================================================================================
+
+9. Abstract Component
+    We have to create an abstract class with the abstract method: isDisplayed() to ensure thatthe components are visible at the page.
+    
