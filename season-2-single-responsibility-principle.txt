@@ -120,3 +120,8 @@
 
 19. Google Result Page Implementation
     At this class we created another page objects named GoogleResultPage, wich is responsible for components from it page.
+                                            
+==========================================================================================
+
+20. Base Test
+    At this class we created a Base Test class wich manage the tests.
