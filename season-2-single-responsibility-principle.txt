@@ -6,4 +6,17 @@
             - If a method modifies a property, other methods using the property might produce different output
 
     Sometimes the problmes can be simple, and some if blocks should be enough. But, when we receive new rules for the app, it mighr be a problem if we hadn't a pattern. 
-  
+
+4. GOOD CODE VS BAD CODE
+    - Good and Bad code might produce same output
+    - Bad Code:
+        - Quick to develop
+        - Less initial effort
+        - More maintenance effort
+        - Difficult to introduce a change & require thorough testing for all the functionalities of the class
+        - Mostly patch work with if-else blocks
+    - Good Code:
+        - More initial effort
+        - Less maintenance
+        - Easy to introduce new change
+        - Comes with experience/knowledge
