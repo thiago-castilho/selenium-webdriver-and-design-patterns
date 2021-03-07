@@ -163,3 +163,8 @@
 
 27. Cohesion
     At this class he explain the cohesion with practical examples of the project.
+                                                                             
+==========================================================================================
+
+28. Project Structure
+    Just an explanation of the project' structure.
