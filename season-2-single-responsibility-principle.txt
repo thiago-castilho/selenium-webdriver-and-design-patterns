@@ -7,6 +7,8 @@
 
     Sometimes the problmes can be simple, and some if blocks should be enough. But, when we receive new rules for the app, it mighr be a problem if we hadn't a pattern. 
 
+==========================================================================================
+
 4. GOOD CODE VS BAD CODE
     - Good and Bad code might produce same output
     - Bad Code:
@@ -20,3 +22,14 @@
         - Less maintenance
         - Easy to introduce new change
         - Comes with experience/knowledge
+==========================================================================================
+
+5. Single Responsibility Principle - Introduction
+    - When a class if modified, all the responsibilities need to be tested.
+    - Testing effort is the total number of responsibilities of all the classes being modified.
+    - To minimize effort, minimize the responsibilities.
+
+    Single Responsibility Principle (SRP)
+        - A class should have onle one responsibility/ one reason to chance.
+        - SRP isn't only for classes. It can be used on Micro/Macro services too.
+        - Another example of SRP: Docker is used to packege one single application process along with dependencies
