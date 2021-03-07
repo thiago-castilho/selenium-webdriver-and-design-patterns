@@ -150,3 +150,11 @@
 
 25. Google Search Text Parameterize
      At this class, we parameterized the texts with @DataProvider, and then we put this values on @Test(dataProvider = "dataProviderMethodName").
+                                                                     
+==========================================================================================
+
+26. Package Refactoring
+    At this class we organized the packages. 
+    common: every common components for all the pages.
+    main: the page object of main page.
+    result: the page object of result status and it's components.
