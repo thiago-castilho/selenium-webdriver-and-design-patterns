@@ -115,3 +115,8 @@
 
 18. Google Main Page Implementation
     At this class we created th Google Main Page (Page Objects) wich is responsible to manage the components.
+                                        
+==========================================================================================
+
+19. Google Result Page Implementation
+    At this class we created another page objects named GoogleResultPage, wich is responsible for components from it page.
