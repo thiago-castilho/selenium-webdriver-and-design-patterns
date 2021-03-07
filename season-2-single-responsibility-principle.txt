@@ -105,3 +105,8 @@
 
 16. Navigation Bar Component Implementation
     At this class we created the navigation bar components
+                                
+==========================================================================================
+
+17. Result Stat Component Implementation
+    At this class we created the result status component, and get it text.

@@ -26,7 +26,7 @@ public class NavigationBar extends AbstractComponent {
     public void goToNews() {
         this.news.click();
     }
-    
+
     @Override
     public boolean isDisplayed() {
         return this.wait.until((d) -> this.bar.isDisplayed());
