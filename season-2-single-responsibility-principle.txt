@@ -158,3 +158,8 @@
     common: every common components for all the pages.
     main: the page object of main page.
     result: the page object of result status and it's components.
+                                                                         
+==========================================================================================
+
+27. Cohesion
+    At this class he explain the cohesion with practical examples of the project.
