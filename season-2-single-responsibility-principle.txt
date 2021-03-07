@@ -73,6 +73,15 @@
         
 ==========================================================================================
 
-9. Abstract Component
+9. Source Code
+10. IDE - Setup
+
+==========================================================================================
+
+11. Abstract Component
     We have to create an abstract class with the abstract method: isDisplayed() to ensure thatthe components are visible at the page.
-    
+            
+==========================================================================================
+
+12. Search Widget Component Implementation
+    At this class we created the search box component, and introduced the return if this component is displayed.
