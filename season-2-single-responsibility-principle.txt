@@ -1,0 +1,9 @@
+3. PROBLEMS WITH POOR DESIGN
+    Class:
+        - A class represents a real world entity
+        - Classs consists of properties/members and behaviors/methods
+        - Class level properties are being shared among all the methods of the class
+            - If a method modifies a property, other methods using the property might produce different output
+
+    Sometimes the problmes can be simple, and some if blocks should be enough. But, when we receive new rules for the app, it mighr be a problem if we hadn't a pattern. 
+  
