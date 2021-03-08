@@ -5,5 +5,9 @@
     Challenges:
         - Have to recognize the problem/pattern
 
-        
+
 ==========================================================================================
+
+32. SRP vs Design Patterns
+    - SRP - Treat class like a person. Assign 1 task.
+    - Design Patterns - Protocol/ How 2 persons should talk
