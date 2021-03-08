@@ -11,3 +11,14 @@
 32. SRP vs Design Patterns
     - SRP - Treat class like a person. Assign 1 task.
     - Design Patterns - Protocol/ How 2 persons should talk
+    
+==========================================================================================
+
+33. [Optional] - Design Patterns Classification
+    Teacher gives the example, but I think this site os better:
+        https://refactoring.guru/pt-br/design-patterns/catalog
+            
+==========================================================================================
+
+34. Factory Introduction
+    
