@@ -40,11 +40,16 @@ public class FactoryTest extends BaseTest {
 
         googleFrenchPage.goTo();
         Assert.assertTrue(googleFrenchPage.getSearchWidget().isDisplayed());
-        googleFrenchPage.getLink().click();
-        googleFrenchPage.getSearchWidget().enterKeyword(keyword);
-        Assert.assertTrue(googleFrenchPage.getSearchSuggestion().isDisplayed());
+        googleFrenchPage.getSettings().click();
 
-        googleFrenchPage.getSearchSuggestion().clickSuggestionByIndex(index);
+        googleFrenchPage.getSearchSettings().isDisplayed();
+        googleFrenchPage.getSearchSettings().click();
+
+//        googleFrenchPage.getLink().click();
+//        googleFrenchPage.getSearchWidget().enterKeyword(keyword);
+//        Assert.assertTrue(googleFrenchPage.getSearchSuggestion().isDisplayed());
+//
+//        googleFrenchPage.getSearchSuggestion().clickSuggestionByIndex(index);
     }
 
 //    @Test(dataProvider = "getData")

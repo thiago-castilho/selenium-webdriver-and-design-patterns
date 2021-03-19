@@ -2,9 +2,10 @@ package com.udemy.seleniumdesign.factory.google.french;
 
 import com.udemy.seleniumdesign.factory.common.SearchSuggestion;
 import com.udemy.seleniumdesign.factory.common.SearchWidget;
+import com.udemy.seleniumdesign.factory.common.Settings;
+import com.udemy.seleniumdesign.factory.common.settings.SearchSettings;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class GoogleFrenchPage {
 
@@ -12,12 +13,16 @@ public class GoogleFrenchPage {
     private GoogleFrenchLink link;
     private SearchWidget searchWidget;
     private SearchSuggestion searchSuggestion;
+    private Settings settings;
+    private SearchSettings searchSettings;
 
     public GoogleFrenchPage(WebDriver driver) {
         this.driver = driver;
         this.link = PageFactory.initElements(driver, GoogleFrenchLink.class);
         this.searchWidget = PageFactory.initElements(driver, SearchWidget.class);
         this.searchSuggestion = PageFactory.initElements(driver, SearchSuggestion.class);
+        this.settings = PageFactory.initElements(driver, Settings.class);
+        this.searchSettings = PageFactory.initElements(driver, SearchSettings.class);
     }
 
     public void goTo() {
@@ -34,5 +39,13 @@ public class GoogleFrenchPage {
 
     public SearchSuggestion getSearchSuggestion() {
         return searchSuggestion;
+    }
+
+    public Settings getSettings() {
+        return settings;
+    }
+
+    public SearchSettings getSearchSettings() {
+        return searchSettings;
     }
 }
