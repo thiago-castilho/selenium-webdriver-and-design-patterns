@@ -3,6 +3,9 @@ package com.udemy.seleniumdesign.test;
 import com.google.common.util.concurrent.Uninterruptibles;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
@@ -15,7 +18,9 @@ public class BaseTest {
     @BeforeTest
     public void setupDriver() {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-        this.driver = new ChromeDriver();
+        System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
+
+        this.driver = new FirefoxDriver();
     }
 
 
