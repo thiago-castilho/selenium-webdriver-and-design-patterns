@@ -1,0 +1,43 @@
+31. Design Pattern - Introduction 
+    - Repeatable solutions to commonly occuring problems in Software Design
+    - Template/ High level solution
+
+    Challenges:
+        - Have to recognize the problem/pattern
+
+
+==========================================================================================
+
+32. SRP vs Design Patterns
+    - SRP - Treat class like a person. Assign 1 task.
+    - Design Patterns - Protocol/ How 2 persons should talk
+    
+==========================================================================================
+
+33. [Optional] - Design Patterns Classification
+    Teacher gives the example, but I think this site os better:
+        https://refactoring.guru/pt-br/design-patterns/catalog
+            
+==========================================================================================
+
+34. Factory Introduction
+    GOAL:
+    - Create a new object without exposing the instantiation logic
+    - Refer to the newly created object using its common interface
+            
+==========================================================================================
+
+35. Factory - Exercice
+    Exercice: 
+        - English (www.google.com)
+        - French (www.google.fr)
+        - Arabic (www.google.com.sa)
+    Steps:
+        - Lauch site
+        - Enter the search keyword
+        - Just land on the search result page
+            
+==========================================================================================
+
+36. Factory - Abstract Google Page
+ 
