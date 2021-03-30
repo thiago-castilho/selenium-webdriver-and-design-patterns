@@ -1,6 +1,6 @@
-package com.udemy.seleniumdesign.factory.google.french;
+package com.udemy.seleniumdesign.srp.exercice.google.french;
 
-import com.udemy.seleniumdesign.factory.common.GoogleAbstractComponent;
+import com.udemy.seleniumdesign.srp.exercice.common.GoogleAbstractComponent;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

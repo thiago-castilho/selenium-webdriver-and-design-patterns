@@ -1,4 +1,4 @@
-package com.udemy.seleniumdesign.factory.common;
+package com.udemy.seleniumdesign.srp.exercice.common;
 
 import com.google.common.util.concurrent.Uninterruptibles;
 import org.openqa.selenium.WebDriver;
@@ -19,7 +19,7 @@ public class SearchWidget extends GoogleAbstractComponent {
     public void enterKeyword(final String keyword) {
         this.searchWidget.clear();
         for (char ch : keyword.toCharArray()) {
-            Uninterruptibles.sleepUninterruptibly(20, TimeUnit.MILLISECONDS);
+            Uninterruptibles.sleepUninterruptibly(5, TimeUnit.MILLISECONDS);
             this.searchWidget.sendKeys(ch + "");
         }
     }

@@ -1,7 +1,7 @@
-package com.udemy.seleniumdesign.factory.google.english;
+package com.udemy.seleniumdesign.srp.exercice.google.english;
 
-import com.udemy.seleniumdesign.factory.common.SearchSuggestion;
-import com.udemy.seleniumdesign.factory.common.SearchWidget;
+import com.udemy.seleniumdesign.srp.exercice.common.SearchSuggestion;
+import com.udemy.seleniumdesign.srp.exercice.common.SearchWidget;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
